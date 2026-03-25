@@ -1,6 +1,6 @@
 {
   "name": "AppShelf",
-  "build": 2,
+  "build": 3,
   "apps": [
     {
       "id": "gravity-sim",
@@ -10,7 +10,7 @@
       "date": "2026-03-25, 17:54",
       "icon": "icons/apps/gravity-sim.png",
       "url": "https://victorantos.github.io/GravitySimulation/",
-      "type": "website"
+      "type": "pwa"
     },
     {
       "id": "piano-fun",
@@ -20,13 +20,23 @@
       "date": "2026-03-25, 17:54",
       "icon": "icons/apps/piano-fun.png",
       "url": "https://victorantos.github.io/PianoFun/",
-      "type": "website"
+      "type": "pwa"
+    },
+    {
+      "id": "nc-web",
+      "name": "NC Web",
+      "version": "1.0",
+      "build": 1,
+      "date": "2026-03-25, 20:45",
+      "icon": "icons/apps/nc-web.png",
+      "url": "https://victorantos.github.io/NC/",
+      "type": "pwa"
     },
     {
       "id": "appshelf",
       "name": "AppShelf",
       "version": "1.0",
-      "build": 2,
+      "build": 3,
       "date": "2026-03-25, 20:30",
       "icon": "icons/apps/appshelf.png",
       "url": "https://victorantos.github.io/AppShelf/",
