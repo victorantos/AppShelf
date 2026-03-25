@@ -1,6 +1,6 @@
 # AppShelf
 
-A personal app catalog for your iPhone — inspired by [Naval's post](https://x.com/naval) about AI coding agents delivering one-shot custom apps straight to your phone.
+A personal app catalog for your iPhone — inspired by [Naval's post](https://x.com/naval/status/2036768607074406606) about AI coding agents delivering one-shot custom apps straight to your phone.
 
 ![AppShelf Screenshot](screenshots/appshelf.png)
 
@@ -72,6 +72,14 @@ npm test
 ## Browser Support
 
 Designed for Safari on iPhone (PWA standalone mode). Works in any modern browser with ES modules and service worker support.
+
+## Blog Post
+
+Read the story behind this project: [Naval Said "Make Your Own App Store" — So I Did](https://victorantos.com/posts/naval-said-make-your-own-app-store-so-i-did/)
+
+## Author
+
+[Victor Antofica](https://victorantos.com)
 
 ## License
 
