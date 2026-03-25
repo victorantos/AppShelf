@@ -1,0 +1,29 @@
+:root {
+  /* iOS Dark Theme */
+  --bg: #000000;
+  --bg-secondary: #1c1c1e;
+  --bg-tertiary: #2c2c2e;
+  --text-primary: #ffffff;
+  --text-secondary: #8e8e93;
+  --text-tertiary: #636366;
+  --accent: #0a84ff;
+  --accent-active: #0070e0;
+  --separator: #38383a;
+  --icon-placeholder: #3a3a3c;
+
+  /* Typography */
+  --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', sans-serif;
+
+  /* Sizing */
+  --icon-size: 60px;
+  --icon-radius: 13.5px;
+  --button-radius: 15px;
+  --button-height: 30px;
+  --row-padding: 16px;
+
+  /* Safe Areas */
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+  --safe-left: env(safe-area-inset-left);
+  --safe-right: env(safe-area-inset-right);
+}

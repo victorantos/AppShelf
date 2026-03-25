@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c2c2e"/>
+      <stop offset="100%" stop-color="#1c1c1e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Shelf lines -->
+  <rect x="80" y="180" width="352" height="3" rx="1.5" fill="#48484a"/>
+  <rect x="80" y="300" width="352" height="3" rx="1.5" fill="#48484a"/>
+  <rect x="80" y="420" width="352" height="3" rx="1.5" fill="#48484a"/>
+  <!-- App squares row 1 -->
+  <rect x="100" y="120" width="52" height="52" rx="12" fill="#0a84ff"/>
+  <rect x="170" y="120" width="52" height="52" rx="12" fill="#30d158"/>
+  <rect x="240" y="120" width="52" height="52" rx="12" fill="#ff9f0a"/>
+  <rect x="310" y="120" width="52" height="52" rx="12" fill="#ff453a"/>
+  <!-- App squares row 2 -->
+  <rect x="100" y="240" width="52" height="52" rx="12" fill="#bf5af2"/>
+  <rect x="170" y="240" width="52" height="52" rx="12" fill="#64d2ff"/>
+  <rect x="240" y="240" width="52" height="52" rx="12" fill="#ffd60a"/>
+  <!-- App squares row 3 -->
+  <rect x="100" y="360" width="52" height="52" rx="12" fill="#ff6482"/>
+  <rect x="170" y="360" width="52" height="52" rx="12" fill="#0a84ff"/>
+</svg>

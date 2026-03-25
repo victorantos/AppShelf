@@ -1,0 +1,56 @@
+{
+  "name": "AppShelf",
+  "build": 1,
+  "apps": [
+    {
+      "id": "airchat",
+      "name": "AirChat",
+      "version": "1.1",
+      "build": 145,
+      "date": "2026-03-25, 19:51",
+      "icon": "icons/apps/airchat.png",
+      "url": "#",
+      "type": "pwa"
+    },
+    {
+      "id": "medical",
+      "name": "Medical",
+      "version": "1.0",
+      "build": 12,
+      "date": "2026-03-25, 17:54",
+      "icon": "icons/apps/medical.png",
+      "url": "#",
+      "type": "pwa"
+    },
+    {
+      "id": "photo-food-log",
+      "name": "Photo Food Log",
+      "version": "1.0",
+      "build": 15,
+      "date": "2026-03-25, 17:54",
+      "icon": "icons/apps/photo-food-log.png",
+      "url": "#",
+      "type": "pwa"
+    },
+    {
+      "id": "appshelf",
+      "name": "AppShelf",
+      "version": "1.0",
+      "build": 1,
+      "date": "2026-03-25, 18:48",
+      "icon": "icons/apps/appshelf.png",
+      "url": "#",
+      "type": "pwa"
+    },
+    {
+      "id": "homeschool",
+      "name": "Homeschool",
+      "version": "1.0",
+      "build": 9,
+      "date": "2026-03-25, 17:54",
+      "icon": "icons/apps/homeschool.png",
+      "url": "#",
+      "type": "pwa"
+    }
+  ]
+}
