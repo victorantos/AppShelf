@@ -1,4 +1,4 @@
-const CACHE_NAME = 'appshelf-v2';
+const CACHE_NAME = 'appshelf-__GIT_HASH__';
 const STATIC_ASSETS = [
   './',
   './index.html',
