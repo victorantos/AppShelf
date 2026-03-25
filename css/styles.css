@@ -195,6 +195,23 @@ html, body {
   color: var(--accent);
 }
 
+/* Footer */
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  padding: 12px var(--row-padding);
+}
+
+.footer a {
+  color: var(--text-tertiary);
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer a:active {
+  color: var(--text-secondary);
+}
+
 /* Empty State */
 .empty-state {
   display: flex;
