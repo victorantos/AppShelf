@@ -80,7 +80,7 @@ function createAppRow(app) {
   iconWrap.className = 'app-icon';
 
   const img = document.createElement('img');
-  img.src = app.icon;
+  img.src = app.icon + '?v=' + (app.build || 1);
   img.alt = app.name;
   img.loading = 'lazy';
   img.onerror = () => {
