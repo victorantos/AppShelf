@@ -1,55 +1,35 @@
 {
   "name": "AppShelf",
-  "build": 1,
+  "build": 2,
   "apps": [
     {
-      "id": "airchat",
-      "name": "AirChat",
-      "version": "1.1",
-      "build": 145,
-      "date": "2026-03-25, 19:51",
-      "icon": "icons/apps/airchat.png",
-      "url": "#",
-      "type": "pwa"
+      "id": "gravity-sim",
+      "name": "Gravity Simulation",
+      "version": "1.0",
+      "build": 1,
+      "date": "2026-03-25, 17:54",
+      "icon": "icons/apps/gravity-sim.png",
+      "url": "https://victorantos.github.io/GravitySimulation/",
+      "type": "website"
     },
     {
-      "id": "medical",
-      "name": "Medical",
+      "id": "piano-fun",
+      "name": "PianoFun",
       "version": "1.0",
-      "build": 12,
+      "build": 1,
       "date": "2026-03-25, 17:54",
-      "icon": "icons/apps/medical.png",
-      "url": "#",
-      "type": "pwa"
-    },
-    {
-      "id": "photo-food-log",
-      "name": "Photo Food Log",
-      "version": "1.0",
-      "build": 15,
-      "date": "2026-03-25, 17:54",
-      "icon": "icons/apps/photo-food-log.png",
-      "url": "#",
-      "type": "pwa"
+      "icon": "icons/apps/piano-fun.png",
+      "url": "https://victorantos.github.io/PianoFun/",
+      "type": "website"
     },
     {
       "id": "appshelf",
       "name": "AppShelf",
       "version": "1.0",
-      "build": 1,
-      "date": "2026-03-25, 18:48",
+      "build": 2,
+      "date": "2026-03-25, 20:30",
       "icon": "icons/apps/appshelf.png",
-      "url": "#",
-      "type": "pwa"
-    },
-    {
-      "id": "homeschool",
-      "name": "Homeschool",
-      "version": "1.0",
-      "build": 9,
-      "date": "2026-03-25, 17:54",
-      "icon": "icons/apps/homeschool.png",
-      "url": "#",
+      "url": "https://victorantos.github.io/AppShelf/",
       "type": "pwa"
     }
   ]
