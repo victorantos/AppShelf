@@ -31,16 +31,6 @@
       "icon": "icons/apps/nc-web.png",
       "url": "https://victorantos.github.io/NC/",
       "type": "pwa"
-    },
-    {
-      "id": "appshelf",
-      "name": "AppShelf",
-      "version": "1.0",
-      "build": 3,
-      "date": "2026-03-25, 20:30",
-      "icon": "icons/apps/appshelf.png",
-      "url": "https://victorantos.github.io/AppShelf/",
-      "type": "pwa"
     }
   ]
 }
