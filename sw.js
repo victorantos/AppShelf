@@ -1,4 +1,4 @@
-const CACHE_NAME = 'appshelf-__GIT_HASH__';
+const CACHE_NAME = 'appshelf-20260325-2130';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -30,8 +30,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  if (url.pathname.endsWith('apps.json')) {
-    // Network-first for manifest
+  // Network-first for data and icons (always try fresh)
+  if (url.pathname.endsWith('apps.json') || url.pathname.includes('/icons/apps/')) {
     event.respondWith(
       fetch(event.request)
         .then((res) => {
