@@ -1,0 +1,101 @@
+========================================
+REPLY TO NAVAL'S X POST
+https://x.com/naval/status/2036768607074406606
+========================================
+
+You said "make your own App Store" so I did.
+
+AppShelf — a personal app catalog running as a PWA on my iPhone. Dark mode, native feel, zero dependencies. The entire app store is a JSON file.
+
+Already loaded it with my own apps:
+- N-body gravity sim (WebGPU)
+- Piano learning game (MIDI)
+- Norton Commander clone
+
+All open source, all one tap away.
+
+github.com/victorantos/AppShelf
+
+
+========================================
+HACKER NEWS
+========================================
+
+Title: Show HN: AppShelf – A personal app store for your iPhone, built as a PWA
+
+URL: https://github.com/victorantos/AppShelf
+
+Comment:
+
+Naval posted about building your own app store for AI-generated apps. I took him literally and built one in an evening.
+
+AppShelf is a PWA that acts as a personal app catalog on your iPhone. Add to Home Screen, it launches fullscreen — looks native, no Safari chrome.
+
+Technical details:
+- Vanilla JS, zero dependencies, no build step
+- App catalog is a flat JSON file — edit, push, done
+- Service worker with network-first for data, cache-first for assets
+- Git commit hash auto-stamps the SW cache version on deploy
+- GitHub Pages hosting (free)
+- 30 tests using Node's built-in test runner
+- ~300 lines of JS, ~200 lines of CSS
+
+I loaded it with three of my open source projects: an N-body gravity simulation (WebGPU compute shaders), a piano learning game with MIDI support, and a Norton Commander clone for the browser. All PWAs, all installable.
+
+The real insight from Naval's post: the bottleneck isn't building apps anymore — it's distribution. For personal tools and weekend projects, you don't need the App Store. You need a shelf.
+
+Blog post with the full story: https://victorantos.com/posts/naval-said-make-your-own-app-store-so-i-did/
+
+
+========================================
+MY OWN X POST
+========================================
+
+Naval said "make your own App Store." So I built one.
+
+AppShelf — a personal app catalog that runs as a PWA on your iPhone.
+
+• Native iOS look, dark mode
+• Your apps listed with icons, versions, Open buttons
+• Entire store is a JSON file
+• Vanilla JS, zero dependencies
+• Free hosting on GitHub Pages
+
+Loaded mine with a WebGPU gravity sim, a piano game I built for my daughter, and a Norton Commander clone born from 90s nostalgia.
+
+All open source. All one tap away.
+
+The bottleneck isn't building apps anymore. It's distribution. For personal tools, you don't need the App Store. You need a shelf.
+
+github.com/victorantos/AppShelf
+
+Blog post: victorantos.com/posts/naval-said-make-your-own-app-store-so-i-did/
+
+
+========================================
+LINKEDIN
+========================================
+
+Naval Ravikant posted something that stuck with me: "AI coding agents can now deliver one-shot custom apps straight to your phone. Make your own App Store."
+
+So I did.
+
+I built AppShelf — a personal app catalog that runs as a Progressive Web App on iPhone. It looks and feels native: dark mode, iOS-style icons, version numbers, one-tap launch buttons. The entire app catalog is a single JSON file. No backend, no database, no App Store review process.
+
+I filled it with three open source projects I've been building:
+
+🔭 Gravity Simulation — real-time N-body physics running on WebGPU compute shaders
+🎹 PianoFun — a piano learning game with MIDI support (vibe-coded it for my daughter, she became the product manager)
+💾 NC Web — Norton Commander for the browser, because nostalgia is a powerful motivator
+
+The tech stack is intentionally minimal: vanilla JavaScript, zero dependencies, no build step, hosted free on GitHub Pages. About 500 lines of code total.
+
+Naval's broader point resonates: when AI makes building apps trivially fast, the real constraint shifts to distribution. For personal tools, side projects, and weekend builds — you don't need a gatekeeper. You need a shelf.
+
+The project is open source if you want to build your own:
+https://github.com/victorantos/AppShelf
+
+Full story on my blog:
+https://victorantos.com/posts/naval-said-make-your-own-app-store-so-i-did/
+
+#OpenSource #PWA #WebDev #AI #VibeCoding
