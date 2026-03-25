@@ -1,0 +1,78 @@
+# AppShelf
+
+A personal app catalog for your iPhone — inspired by [Naval's post](https://x.com/naval) about AI coding agents delivering one-shot custom apps straight to your phone.
+
+![AppShelf Screenshot](screenshots/appshelf.png)
+
+## Features
+
+- **Native iOS look** — pure black OLED dark mode, SF fonts, iOS-style rounded icons and pill buttons
+- **Personal app catalog** — list your custom-built apps with icons, versions, build numbers, and dates
+- **One-tap launch** — Open buttons link to your PWAs, TestFlight builds, websites, or URL schemes
+- **Installable PWA** — add to iPhone home screen via Safari, launches fullscreen like a native app
+- **Offline support** — service worker caches everything, works without internet
+- **Pull to refresh** — swipe down to reload the app manifest
+- **Zero dependencies** — vanilla JavaScript, no frameworks, no build step
+- **Simple manifest** — add or remove apps by editing a single `apps.json` file
+
+## Quick Start
+
+Serve the directory with any static file server:
+
+```bash
+# Python
+python3 -m http.server 8000
+
+# Node
+npx serve .
+
+# PHP
+php -S localhost:8000
+```
+
+Then open `http://localhost:8000` in your browser.
+
+## Install on iPhone
+
+1. Open the URL in Safari
+2. Tap **Share** → **Add to Home Screen**
+3. AppShelf appears as a standalone app with its own icon
+
+## Adding Apps
+
+Edit `apps.json` to add your apps:
+
+```json
+{
+  "name": "AppShelf",
+  "build": 1,
+  "apps": [
+    {
+      "id": "my-app",
+      "name": "My App",
+      "version": "1.0",
+      "build": 1,
+      "date": "2026-03-25, 18:00",
+      "icon": "icons/apps/my-app.png",
+      "url": "https://my-app.example.com",
+      "type": "pwa"
+    }
+  ]
+}
+```
+
+Push the change — users get the updated list on next refresh.
+
+## Running Tests
+
+```bash
+npm test
+```
+
+## Browser Support
+
+Designed for Safari on iPhone (PWA standalone mode). Works in any modern browser with ES modules and service worker support.
+
+## License
+
+[GPL-3.0](LICENSE)
