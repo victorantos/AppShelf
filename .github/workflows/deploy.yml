@@ -22,7 +22,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Stamp service worker with git hash
-        run: sed -i "s/__GIT_HASH__/${GITHUB_SHA::8}/" sw.js
+        run: |
+          SHORT_SHA=$(echo "$GITHUB_SHA" | cut -c1-8)
+          sed -i "s/__GIT_HASH__/$SHORT_SHA/" sw.js
+          head -1 sw.js
       - uses: actions/configure-pages@v4
       - uses: actions/upload-pages-artifact@v3
         with:
