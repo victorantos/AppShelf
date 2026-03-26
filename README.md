@@ -9,7 +9,7 @@ A personal app catalog for your iPhone — inspired by [Naval's post](https://x.
 - **Native iOS look** — pure black OLED dark mode, SF fonts, iOS-style rounded icons and pill buttons
 - **Personal app catalog** — list your custom-built apps with icons, versions, build numbers, and dates
 - **One-tap launch** — Open buttons link to your PWAs, TestFlight builds, websites, or URL schemes
-- **Installable PWA** — add to iPhone home screen via Safari, launches fullscreen like a native app
+- **Installable PWA** — add to iPhone home screen via Safari, or install as a desktop app via Chrome on Mac/Windows/Linux
 - **Offline support** — service worker caches everything, works without internet
 - **Pull to refresh** — swipe down to reload the app manifest
 - **Zero dependencies** — vanilla JavaScript, no frameworks, no build step
@@ -37,6 +37,14 @@ Then open `http://localhost:8000` in your browser.
 1. Open the URL in Safari
 2. Tap **Share** → **Add to Home Screen**
 3. AppShelf appears as a standalone app with its own icon
+
+## Install on Mac / Windows / Linux
+
+1. Open the URL in Chrome
+2. Click the **Install** button in the address bar
+3. AppShelf installs as a standalone desktop app — no browser chrome, sits in your dock/taskbar
+
+![AppShelf on macOS](screenshots/appshelf-macos.png)
 
 ## Adding Apps
 
@@ -71,7 +79,7 @@ npm test
 
 ## Browser Support
 
-Designed for Safari on iPhone (PWA standalone mode). Works in any modern browser with ES modules and service worker support.
+Works on iPhone (Safari PWA), Mac/Windows/Linux (Chrome installable PWA), and any modern browser with ES modules and service worker support.
 
 ## Blog Post
 
